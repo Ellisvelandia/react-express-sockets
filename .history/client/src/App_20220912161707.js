@@ -8,7 +8,6 @@ function App() {
   const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault();
     console.log(message);
   };
 

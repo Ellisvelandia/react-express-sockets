@@ -8,7 +8,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    <e className="preven"></e>
     console.log(message);
   };
 
